@@ -1,0 +1,52 @@
+
+.img-logo {
+  max-width: 200px; /* Especifica el ancho máximo deseado */
+  height: auto;
+}
+.inline-header {
+  color: white;
+  white-space: nowrap;
+}
+.col {
+  display: flex;
+  flex-direction: column; /* Apilar los elementos verticalmente dentro de .col */
+  align-items: center; /* Centrar los elementos horizontalmente dentro de .col */
+}
+
+.inline-header2 {
+  display: inline;
+  color: #b8c1ec;
+  white-space: nowrap;
+}
+
+.custom-profile h2 {
+  font-size: 60px; /* Tamaño de fuente ajustado a 120px */
+}
+
+.custom-profile h1 {
+  font-size: 60px; /* Tamaño de fuente ajustado a 80px */
+}
+
+.custom-profile h3 {
+  font-size: 40px; /* Tamaño de fuente ajustado a 40px */
+  margin-top: auto;
+}
+.custom-profile h1,
+.custom-profile h2,
+.custom-profile h3 {
+  margin: 0; /* Eliminar márgenes predeterminados para evitar espacios innecesarios */
+}
+
+.custom-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.home-background {
+  background-image: url("../Images/photo-body.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0%;
+}

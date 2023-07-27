@@ -1,0 +1,41 @@
+.about-background {
+  background-image: url("../Images/photoabout.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+/* Otros estilos para el contenido */
+.about-content h1 {
+  font-size: 40px;
+}
+
+.about-content h2 {
+  font-size: 30px;
+}
+
+.about-content h3 {
+  font-size: 24px;
+}
+
+.about-content p {
+  font-size: 16px;
+}
+
+.container-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.container-img img {
+    margin: 30px; 
+  }
