@@ -50,3 +50,17 @@
   background-repeat: no-repeat;
   padding: 0%;
 }
+/* 
+.img-red{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-red{
+  width: 90%;
+  height: auto;
+} */

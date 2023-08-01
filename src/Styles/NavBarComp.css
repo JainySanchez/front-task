@@ -1,5 +1,20 @@
-.custom-navbar {
+
+  .custom-navbar {
     background-color: transparent;
-    color: green;
     box-shadow: none;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    position: relative;
   }
+  
+  .fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: red; /* cambiar el color de fondo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /*  agregar una sombra para resaltar la barra */
+    opacity: 0.9; /*  ajustar la opacidad */
+  }
+  

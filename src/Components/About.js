@@ -11,6 +11,7 @@ import gmail from "../Images/gmail.png";
 import linkedin from "../Images/linkedin.png";
 import twitter from "../Images/twitter.png";
 import github1 from "../Images/github1.png";
+import { motion } from "framer-motion"
 
 function About() {
   const downloadPdf = () => {
@@ -64,8 +65,20 @@ function About() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              className="animate-jump-in animate-infinite animate-ease-in-out"
+            <motion.img
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
+                duration: 0.3,
+                ease: [0, 0.71, 0.2, 1.01],
+                scale: {
+                  type: "spring",
+                  damping: 5,
+                  stiffness: 100,
+                  restDelta: 0.001
+                }
+              }}
+              // className="animate-jump-in animate-infinite animate-ease-in-out"
               src={gmail}
               alt="gmail"
             />
@@ -75,21 +88,57 @@ function About() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={linkedin} alt="linkedin" />
+            <motion.img
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
+                duration: 0.3,
+                ease: [0, 0.71, 0.2, 1.01],
+                scale: {
+                  type: "spring",
+                  damping: 5,
+                  stiffness: 100,
+                  restDelta: 0.001
+                }
+              }} src={linkedin} alt="linkedin" />
           </a>
           <a
             href="https://twitter.com/Jainy61890940e"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={twitter} alt="twitter" />
+            <motion.img
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
+                duration: 0.3,
+                ease: [0, 0.71, 0.2, 1.01],
+                scale: {
+                  type: "spring",
+                  damping: 5,
+                  stiffness: 100,
+                  restDelta: 0.001
+                }
+              }} src={twitter} alt="twitter" />
           </a>
           <a
             href="https://github.com/JainySanchez"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={github1} alt="github" />
+            <motion.img
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
+                duration: 0.3,
+                ease: [0, 0.71, 0.2, 1.01],
+                scale: {
+                  type: "spring",
+                  damping: 5,
+                  stiffness: 100,
+                  restDelta: 0.001
+                }
+              }} src={github1} alt="github" />
           </a>
         </div>
       </div>
